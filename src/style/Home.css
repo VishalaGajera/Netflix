@@ -1,0 +1,77 @@
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  background-color: rgb(209, 208, 208);
+  color: aliceblue;
+  text-shadow: 1px 2px 3px black;
+  box-shadow: rgb(209, 208, 208) 0px 3px 8px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px;
+  font-size: larger;
+}
+
+.item {
+  border: 2px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2em 3rem;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card_img {
+  width: 250px;
+  height: 250px;
+  padding-bottom: 10px;
+}
+
+.card_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card_category {
+  font-size: 1.3rem;
+}
+
+.btn {
+  padding: 10px 30px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+@media (max-width: 850px) {
+  .card {
+    padding: 1.5rem;
+  }
+}/*# sourceMappingURL=Home.css.map */
